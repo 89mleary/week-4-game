@@ -1,0 +1,78 @@
+body {
+	background-color: #C5C1C0;
+	text-align: center;
+	user-select: none;
+}
+
+#row-3 {
+	margin: 50px 0;
+}
+
+#title {
+	font-family: 'Sarpanch', sans-serif;
+	font-size: 65pt;
+	font-weight: bolder;
+	color: #0A1612;
+}
+
+#wins, #losses {
+	font-family: 'Lato', sans-serif;
+	font-size: 25pt;
+	color: #0A1612;
+	display: inline-block;
+}
+
+#wins-num {
+	margin-right: 40px;
+	margin-left: 5px;
+	
+	color: #0A1612;
+}
+
+#losses-num {
+	margin-left: 40px;
+	margin-right: 5px;
+
+	color: #0A1612;
+}
+
+
+#guessing, #added-up {
+	font-family: 'Lato', sans-serif;
+	font-size: 55pt;
+	color: #FEFEFE;
+	background-color: #1A2930;
+
+	display: inline-block;
+	width: 150px;
+
+	border-radius: 60px/10px;
+}
+
+#arrows {
+	font-family: 'Lato', sans-serif;
+	font-size: 75pt;
+	color: #0A1612;
+
+	margin: 0 30px;
+}
+
+
+/*  Shapes  */
+.shapes {
+	font-size: 80pt;
+	color: #0A1612;
+
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.shapes:hover {
+	background-color: #F7CE3E;
+	border-radius: 10px/30px;
+}
+
+
+#shape-0, #shape-1, #shape-2, #shape-3 {
+	display: inline-block;
+} 
